@@ -14,8 +14,8 @@ reddit_flair contains django code for website. To run, install the requirements 
 ### Main libraries used
   1. [praw]
   2. [scikit-learn]
-  3. [Django](https://www.djangoproject.com/)
-  4. [pandas](https://pandas.pydata.org/)
-  5. [numpy](http://www.numpy.org/)
+  3. [Django]
+  4. [pandas]
+  5. [numpy]
   6. [pytorch]
 
