@@ -45,7 +45,7 @@ The approach taken for the task is as follows:
     
 ### BERT approach
 1. The The features **Title + Comments + BODY** are truncated to 700 length (as found out from the EDA).
-2. They are given to bert-base-uncased (which is used as a feature extractor). This layer is not fintuned.
+2. They are given to `bert-base-uncased` (which is used as a feature extractor). This layer is not fintuned.
 3. The output of bert is given to an attention layer to compute relative importance of words.
 4. The attention output is fed to dense layers for dimensionality reduction.
 5. The final dense layer uses softmax and classifies into classes.
