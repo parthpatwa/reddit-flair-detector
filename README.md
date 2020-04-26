@@ -1,6 +1,6 @@
 # reddit-flair-detector
 
-A Reddit Flair Detector web application to detect flairs of India subreddit posts using Machine Learning algorithms. The application can be found live at [Reddit Flair Detector](https://redditherokup.herokuapp.com/).
+A Reddit Flair Detector web application to detect flairs of India subreddit posts using Machine Learning algorithms. The application can be found live at [Reddit Flair Detector](https://redditherokup.herokuapp.com/). <br>
 
 ### Directory Structure
 data_scrapping_and_cleaning is the code to collect data.<br>
@@ -19,7 +19,7 @@ reddit_flair contains django code for website. To run, install the requirements 
   5. [numpy]
   6. [pytorch]
   
-  ### ML Approach
+### ML Approach
 
 The approach taken for the task is as follows:
 
