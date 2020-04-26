@@ -19,7 +19,7 @@ reddit_flair contains django code for website. To run, install the requirements 
   5. [numpy]
   6. [pytorch]
   
-  ### Approach
+  ### ML Approach
 
 The approach taken for the task is as follows:
 
@@ -43,3 +43,9 @@ The approach taken for the task is as follows:
    9. Training and Testing on the dataset showed the **Random Forest** showed the best testing accuracy of **74.3%** when trained on the combination of **Title + Comments + BODY** feature.
    10. The best model is saved and is used for prediction of the flair from the URL of the post.
     
+### BERT approach
+1. The The features **Title + Comments + BODY** are truncated to 700 length (as found out from the EDA).
+2. They are given to bert-base-uncased (which is used as a feature extractor). This layer is not fintuned.
+3. The output of bert is given to an attention layer to compute relative importance of words.
+4. The attention output is fed to dense layers for dimensionality reduction.
+5. The final dense layer uses softmax and classifies into classes.
