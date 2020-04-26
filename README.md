@@ -27,7 +27,7 @@ The approach taken for the task is as follows:
   2. The data includes *title, comments, body, url, author, score, id, time-created* and *number of comments*.
   3. For **comments**, only 20 top level comments are considered in dataset and no sub-comments are present.
   4. The ***title, comments*** and ***body*** are cleaned by removing bad symbols.
-  5. Five types of features are considered for the the given task:
+  5. four types of features are considered for the the given task:
     
     a) Title
     b) Comments
