@@ -4,8 +4,8 @@ A Reddit Flair Detector web application to detect flairs of India subreddit post
 
 ### Directory Structure
 data_scrapping_and_cleaning is the code to collect data.<br>
-EDA is the data analysis <br>
-flair_Detector_ml_baselines contatins the ml baselines <br>
+EDA is the data analysis. <br>
+flair_Detector_ml_baselines contatins the ml baselines. <br>
 bert contains all the bert codes. (train, preprocess) <br>
 
 ### django app
@@ -49,5 +49,5 @@ The approach taken for the task is as follows:
 3. The output of bert is given to an attention layer to compute relative importance of words.
 4. The attention output is fed to dense layers for dimensionality reduction.
 5. The final dense layer uses softmax and classifies into classes.
-6. This model was run only for 10 epochs.
+6. This model was run only for 24 epochs.
 7. This method performed poorly as compared to ML due to lack of computation resources and data. However it can be improved by adding more data and runnig for more epochs. 
