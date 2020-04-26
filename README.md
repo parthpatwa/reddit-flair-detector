@@ -8,7 +8,7 @@ EDA is the data analysis <br>
 flair_Detector_ml_baselines contatins the ml baselines <br>
 bert contains all the bert codes. (train, preprocess) <br>
 
-###Directory Structure
+### django app
 reddit_flair contains django code for website. To run, install the requirements and execute `python manage.py runserver`
 
 ### Main libraries used
